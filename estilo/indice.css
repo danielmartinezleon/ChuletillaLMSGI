@@ -1,0 +1,79 @@
+@font-face{
+	font-family: "mifuente";
+	src: url('../fuente/fuente1.ttf');
+}
+
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: black;
+}
+
+
+header{
+	display: flex;			
+	width: 90%;
+	justify-content: center;
+	margin: 0 auto;
+}	
+
+header img{
+	flex: 1 1 100%;
+	padding: 2%;
+}
+
+footer{
+	border: black solid 20px;
+	display: flex;			
+	width: 100%;
+	justify-content: center;
+	margin-top: 1%;
+}	
+
+footer div{
+	flex: 1 1 70%;	
+	background-color: white;									
+}
+
+footer p{
+	font-family: "Times new roman";	
+	text-align: justify;
+	padding: 2%;									
+}
+
+#contenido{
+	display: flex;
+	width: 85%;	
+	margin: 0 auto;
+	justify-content: center;
+}
+
+#contenido nav{
+	flex: 1 1 30%;	
+	padding: 2%;
+}
+
+#contenido main{
+	flex: 1 1 100%;
+	padding: 2%;
+	background-color: white;
+	border-radius: 10pt;
+}
+
+#contenido aside{
+	flex: 1 1 35%;
+	text-align: center;
+	padding-top: 5%;
+	line-height: 100pt;
+}
+
+#contenido nav li{
+	font-family: "mifuente";
+	font-size: 30pt;
+	list-style: none;
+	line-height: 200pt;
+	text-transform: uppercase;
+}

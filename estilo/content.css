@@ -1,0 +1,119 @@
+@font-face{
+	font-family: "slipknot";
+	src: url('../fuente/Sickness.ttf');
+}
+
+@font-face{
+	font-family: "pantera";
+	src: url('../fuente/shredded.ttf');
+}
+
+@font-face{
+	font-family: "ghost";
+	src: url('../fuente/Ghostz.otf');
+}
+
+@font-face{
+	font-family: "mifuente";
+	src: url('../fuente/fuente1.ttf');
+}
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: black;
+}
+
+
+header{
+	display: flex;			
+	width: 90%;
+	justify-content: center;
+	margin: 0 auto;
+}	
+
+nav{
+    font-family: "mifuente";
+}
+
+p{
+    text-align: justify;
+}
+
+.slipknot{
+    font-family: "slipknot";
+    font-size: 46pt;
+}
+
+.ghost{
+    font-family: "ghost";
+    font-size: 46pt;
+}
+
+.pantera{
+    font-family: "pantera";
+    font-size: 46pt;
+}
+
+div img{
+text-align: center;
+}
+
+header img{
+	flex: 1 1 100%;
+	padding: 2%;
+}
+
+footer{
+    border: black solid 10px;
+	display: flex;			
+	width: 100%;
+	justify-content: center;
+	margin-top: 1%;
+}	
+
+footer div{
+	flex: 1 1 70%;	
+	background-color: white;									
+}
+
+footer p{
+	font-family: "Times new roman";	
+	text-align: justify;
+	padding: 2%;									
+}
+
+#contenido{
+	display: flex;
+	width: 85%;	
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.menu{
+	flex: 1 1 50%;	
+	padding: 2%;
+    margin: 0 auto;
+    width: 85%;	
+    text-align: center;
+    background-color: gray;
+    color: blueviolet;
+    font-size: 20pt;
+    border-radius: 10pt;
+}
+
+#contenido main{
+	flex: 1 1 100%;
+	padding: 2%;
+	background-color: white;
+    border-radius: 10pt;
+}
+
+#contenido aside{
+	flex: 1 1 35%;
+	text-align: center;
+	padding-top: 5%;
+	line-height: 100pt;
+}

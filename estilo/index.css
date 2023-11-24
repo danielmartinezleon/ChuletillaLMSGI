@@ -1,0 +1,41 @@
+
+
+*{
+	box-sizing: border-box;
+}
+
+main{
+	display: flex;
+	width: 90%;			
+	margin: 0 auto;
+	justify-content: center;
+	background-color: white;
+
+}
+
+main img{
+	padding: 2%;
+}			
+
+footer{
+    border: black solid 10px;
+	display: flex;			
+	width: 100%;
+	justify-content: center;
+	margin-top: 1%;
+}	
+
+footer div{
+	flex: 1 1 70%;	
+	background-color: white;									
+}
+
+footer p{
+	font-family: "Times new roman";	
+	text-align: justify;
+	padding: 2%;									
+}
+
+body{
+	background: black;
+}
